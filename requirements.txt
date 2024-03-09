@@ -4,4 +4,9 @@ seaborn
 matplotlib
 scikit-learn
 datetime
--e .
+plotly
+pytest-warnings
+ipython
+catboost
+xgboost
+# -e .
