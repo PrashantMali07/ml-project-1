@@ -9,4 +9,5 @@ pytest-warnings
 ipython
 catboost
 xgboost
+dill
 # -e .
