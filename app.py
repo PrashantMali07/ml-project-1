@@ -39,3 +39,7 @@ def predict_datapoint():
         results=str(pipeline.PredictionPipeline(getting_data)).replace('[',' ').replace(']',' ')
         logging.info(f"The predicted result is {results} and its dtype is {type(results)}")
         return render_template('home.html',results=results)
+    
+
+if __name__=="__main__":
+    app.run(host="0.0.0.0")
