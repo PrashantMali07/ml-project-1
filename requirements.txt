@@ -10,4 +10,8 @@ ipython
 catboost
 xgboost
 dill
+Flask
+pybuilder-pyproject-toml
+projects
+pickle4
 # -e .
